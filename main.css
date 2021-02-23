@@ -1,0 +1,193 @@
+* {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Open+Sans:wght@400;700;800&display=swap');
+
+.background-container {
+    background: url("../images/GMIT1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    filter: brightness(0.8);
+}
+
+.wrapper {
+    position: absolute;
+    top: 20%;
+}
+
+.window {
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffffde;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 0 5px #888;
+    border-radius: 4px;
+    position: relative;
+    
+
+}
+
+.window-top-header {
+    text-align: center;
+    padding: 25px;
+}
+
+.window-top-header div {
+    margin-bottom: 10px;
+}
+
+.network-logo span {
+    font-size: 2.5rem;
+    color: #ff7300;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.network-caption p {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    
+    color: #424242;
+    text-align: center
+}
+
+.window-split-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+}
+
+.social-boast {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right:  1px solid black;
+}
+
+#social-google button, #social-facebook button {
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #6d6d6d;
+    color: #6d6d6d;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#social-google button:hover, #social-facebook button:hover {
+    background: rgb(226, 244, 255);
+}
+
+.signup-remarks p {
+    color: #949494;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.signup-remarks p a {
+    text-decoration: none;
+    color: #2b6dad;
+}
+
+
+.login-boast {
+    padding: 0px 15px;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+input {
+     background-color: #EEE;
+     border: 1px solid #EEE;
+     font-size: 15px;
+     margin-bottom: 15px;
+     padding: 10px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     width: 100%;
+     border-radius: 4px;
+     
+
+}
+
+input:focus {
+    border: 1px solid #949494;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forgot-password a {
+    color: #949494;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.login button {
+    background: rgb(144, 165, 255);
+    padding: 5px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 8px;
+}
+
+ul li a {
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #949494;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.language-box {
+    text-align: center;
+    padding: 5px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.212);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+
+.footer-nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-nav ul li {
+    color: #949494;
+    font-size: 12px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+}
